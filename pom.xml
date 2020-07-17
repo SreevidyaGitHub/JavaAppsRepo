@@ -11,6 +11,12 @@
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
 
+         <parent>
+    <groupId>com.example</groupId>
+    <artifactId>example-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <relativePath>/Applications/apache-maven-3.6.3/pom.xml</relativePath>
+</parent>
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
